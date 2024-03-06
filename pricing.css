@@ -1,0 +1,121 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header, .footer {
+    background: linear-gradient(135deg, #FF0080, #7928CA);
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pricing {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.plan {
+    flex-grow: 1;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 300px; /* Adjust max-width as needed */
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan .price {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan .price .currency {
+    font-size: 16px;
+}
+
+.plan .price .period {
+    font-size: 16px;
+}
+
+.plan ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.plan ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff8533;
+}
+
+.footer {
+    background: linear-gradient(135deg, #FF0080, #7928CA);
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
